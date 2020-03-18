@@ -9,15 +9,18 @@ header {
   background-color: #ccc;
   width: 90%;
   height: 160px;
-  background: linear-gradient(to bottom, #ccc, #fff);
   margin-top: -20px;
 }
 header img{
   height: 100px;
-  margin-left: 100px;
+  margin: 10px 60px
+}
+header p{
+  float:right;
+  font-size: 20px;
 }
 nav {
-  background-color: #000;
+  background-color: red;
   width: 90%;
   height: 64px;
 }
@@ -48,10 +51,9 @@ main h3, p{
   text-align: justify;
 }
 footer{
-  background-color: #ccc;
+  background-color: red;
   width: 90%;
   height: 90px;
-  background: linear-gradient(to bottom, #fff, #ccc);
   margin-top: -20px;
 }
 footer p{
