@@ -66,7 +66,7 @@ else {
 //for (var i = 0; i < 6; i++) {
 //  console.log(i)
 //}
-var i=0;
+//var i=0;
 //while (i<5) {
 //  console.log(i)
 //  i++;
