@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>clase 06</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <script src="lib/jquery/jquery.min.js" charset="utf-8"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Diseño Web II</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Documentación</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Formulario</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-primary" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+<br>
+<div class="container">
+<div class="card">
+<div class="card-body">
+<h3 class="card-title">Formulario</h3>
+
+
+<form class="" action="index.html" method="post">
+  <input type="hidden" id="idx" value="">
+    <p>
+      <label for="apellido">Apellido</label> <br>
+      <input type="text" id="apellido" class="form-control" value="">
+    </p>
+    <p>
+      <label for="nombre">Nombre</label><br>
+      <input type="text" id="nombre" value=""  class="form-control" >
+    </p>
+    <p>
+      <label for="cedula">Numero de cedula</label><br>
+      <input type="number" id="cedula" value=""  class="form-control" >
+    <p>
+    <p>
+      <label for="fenac">Fecha de nacimiento</label><br>
+      <input type="date" id="fenac" value=""  class="form-control" >
+    <p>
+    <button type="button" id="enviar"  class="btn btn-primary" >Enviar</button>
+</form>
+</div>
+</div>
+</div>
+<br>
+<div class="container" id="datos">
+
+</div>
+<br>
+<script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>
+© 2020 DW2, UNAE.
